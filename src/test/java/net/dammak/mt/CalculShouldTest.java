@@ -30,4 +30,9 @@ public class CalculShouldTest {
     public void get_9_when_sum_pondere_5_and_4() {
         assertEquals(9,calcul.sommePondere(5,4));
     }
+
+    @Test
+    public void get_18_when_sum_pondere_10_and_4() {
+        assertEquals(18,calcul.sommePondere(10,4));
+    }
 }
